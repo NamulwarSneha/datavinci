@@ -1,0 +1,28 @@
+:root{
+  --bg:#faf7f3;               /* page background */
+  --surface:#f4f1ed;           /* cards/panels */
+  --text:#1a1a1a;
+  --muted:#6b6b6b;
+  --brand:#7b2db4;             /* purple brush/accents */
+  --accent:#f0b300;            /* honey gold */
+  --border:#e6e1db;
+  --success:#2e7d32;
+  --radius:14px;
+  --radius-lg:22px;
+
+  --fs-xxs:10px;
+  --fs-xs:12px;
+  --fs-sm:14px;
+  --fs:16px;
+  --fs-lg:20px;
+  --fs-xl:24px;
+  --fs-2xl:32px;
+  --fs-3xl:42px;
+  --fs-4xl:56px;
+
+  --shadow:0 6px 18px rgba(0,0,0,.06);
+  --shadow-soft:0 3px 10px rgba(0,0,0,.05);
+}
+@media (min-width:1024px){
+  :root{ --fs-3xl:48px; --fs-4xl:64px; }
+}

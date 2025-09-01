@@ -1,0 +1,7 @@
+.grid{ display:grid; gap:20px }
+@media (min-width:1024px){
+  .grid-cols-2{ grid-template-columns: 1.05fr .95fr } /* image rail + content */
+}
+.section{
+  padding:24px 0;
+}
